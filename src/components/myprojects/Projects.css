@@ -1,0 +1,96 @@
+#projects {
+    overflow: hidden;
+    width: 90vw;
+    max-width: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .projectsTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-top: 6rem;
+  }
+  
+  .projectsContainer {
+    display: flex;
+    flex-wrap: wrap; /* Ensure that projects wrap to the next line */
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .projectDetailsContainer {
+    flex-basis: calc(33.33% - 1.5rem);
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: rgb(163, 163, 163) 0.1rem solid;
+    text-align: center;
+    margin-bottom: 2rem; /* Adjusted margin to ensure space between rows */
+  }
+  
+  .project-image {
+    border-radius: 2rem;
+    width: 100%;
+    height: auto;
+  }
+  
+  .color-container {
+    border-radius: 2rem;
+    border: rgb(163, 163, 163) 0.1rem solid;
+  }
+  
+  .project-image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project-subtitle {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-buttons-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .project-button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+
+  .project-button:hover{
+    background-color: yellow;
+  }
+  
+  @media screen and (max-width: 840px) {
+    .projectsContainer {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .projectDetailsContainer {
+      flex-basis: calc(33.33% - 2rem); /* Adjusted to 33.33% to fit three in a row with 2rem gap */
+      margin-right: 0; /* No margin on the right to avoid overflow */
+      margin-bottom: 2rem;
+    }
+  }
+  

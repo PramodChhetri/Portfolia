@@ -11,6 +11,7 @@ const Navbar = () => {
       <img src={logo} alt="logo" className='logo'/>
       <div className="desktopMenu">
         <Link className="desktopMenuListItem">Home</Link>
+        <Link className="desktopMenuListItem">Skills</Link>
         <Link className="desktopMenuListItem">About</Link>
         <Link className="desktopMenuListItem">Project</Link>
         <Link className="desktopMenuListItem">Clients</Link>

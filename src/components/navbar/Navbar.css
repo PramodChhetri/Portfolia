@@ -41,6 +41,11 @@
     padding: 0 1.5rem 0 0.5rem;
     border-radius: 2rem;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.desktopMenuBtn:hover {
+    background-color:  yellow;
 }
 
 .desktopMenuImg{

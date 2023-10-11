@@ -1,8 +1,9 @@
-import React from 'react'
-import './Skill.css'
+import React from 'react';
+import './Skill.css';
 import backend from '../../assets/ui-design.png';
 import frontend from '../../assets/website-design.png';
 import android from '../../assets/app-design.png';
+
 
 const Skill = () => {
   return (
@@ -34,6 +35,7 @@ const Skill = () => {
         </div>
         </div>
     </section>
+
     </>
   )
 }

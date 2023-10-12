@@ -1,45 +1,49 @@
 import React from 'react';
 import './Projects.css';
-import Project1 from "../../assets/project-1.png";
-import Project2 from "../../assets/project-2.png";
-import Project3 from "../../assets/project-3.png";
+import Evergreen from "../../assets/Evergreen.png";
+import TextNinja from "../../assets/TextNinja.png";
+import FoodRhino from "../../assets/FoodRhino.png"
+import PortfolioPic from "../../assets/portfoliaposter.png";
+import LaravelAPI from "../../assets/laravelAPI.png";
+import LaravelAPISanctum from "../../assets/laravelAPISanctum.png";
+
 
 const projectsData = [
   {
-    title: 'Project One',
-    image: Project1,
-    githubLink: 'https://github.com/',
-    liveDemoLink: 'https://github.com/'
+    title: 'Evergreen',
+    image: Evergreen,
+    githubLink: 'https://github.com/PramodChhetri/Laravel-Evergreen',
+    liveDemoLink: '#'
   },
   {
-    title: 'Project Two',
-    image: Project2,
-    githubLink: 'https://github.com/',
-    liveDemoLink: 'https://github.com/'
+    title: 'TextNinja',
+    image: TextNinja,
+    githubLink: 'https://github.com/PramodChhetri/React-TextNinja',
+    liveDemoLink: 'https://pramodchhetri.github.io/React-TextNinja/'
   },
   {
-    title: 'Project Three',
-    image: Project3,
-    githubLink: 'https://github.com/',
-    liveDemoLink: 'https://github.com/'
+    title: 'FoodRhino',
+    image: FoodRhino,
+    githubLink: '#',
+    liveDemoLink: '#'
   },
   {
-    title: 'Project Four',
-    image: Project1,
-    githubLink: 'https://github.com/',
-    liveDemoLink: 'https://github.com/'
+    title: 'Portfolio',
+    image: PortfolioPic,
+    githubLink: 'https://github.com/PramodChhetri/Portfolia',
+    liveDemoLink: '#'
   },
   {
-    title: 'Project Five',
-    image: Project2,
-    githubLink: 'https://github.com/',
-    liveDemoLink: 'https://github.com/'
+    title: 'Laravel API',
+    image: LaravelAPI,
+    githubLink: 'https://github.com/PramodChhetri/API-Basics',
+    liveDemoLink: '#'
   },
   {
-    title: 'Project Six',
-    image: Project3,
-    githubLink: 'https://github.com/',
-    liveDemoLink: 'https://github.com/'
+    title: 'Sanctum Auth',
+    image: LaravelAPISanctum,
+    githubLink: 'https://github.com/PramodChhetri/API-Sanctum',
+    liveDemoLink: '#'
   },
 ];
 
@@ -62,9 +66,13 @@ const Projects = () => {
               <button className="project-button" onClick={() => window.open(project.githubLink)}>
                 View on GitHub
               </button>
-              <button className="project-button" onClick={() => window.open(project.liveDemoLink)}>
-                Live Demo
-              </button>
+              {
+                project.liveDemoLink !== "#" && (
+                  <button className="project-button" onClick={() => window.open(project.liveDemoLink)}>
+                    Live Demo
+                  </button>
+                )
+              }
             </div>
           </div>
         ))}

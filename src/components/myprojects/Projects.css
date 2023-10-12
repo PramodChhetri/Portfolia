@@ -39,8 +39,8 @@
   
   .project-image {
     border-radius: 2rem;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 18rem;
   }
   
   .color-container {

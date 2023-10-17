@@ -53,9 +53,7 @@ const Contact = () => {
         </div>
         <div id="contact">
           <h1 className="contactPageTitle">Contact Me</h1>
-          <span className="contactDesc">
-            Kindly fill out the form below to initiate discussions regarding potential work opportunities and inquiries.
-          </span>
+          <p className="contactDesc">Kindly fill out the form below to initiate discussions regarding potential work opportunities and inquiries.</p>
           <form className="contactForm" ref={form} onSubmit={sendEmail}>
             <input type="text" name="your_name" placeholder="Your Name" className="name" required />
             <input type="email" name="your_email" placeholder="Your Email" className="email" required />

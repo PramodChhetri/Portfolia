@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.45f245bc.css",
-    "main.js": "/Portfolio/static/js/main.cf09337b.js",
-    "static/media/Evergreen.png": "/Portfolio/static/media/Evergreen.ea37a9f30fde5d2c325f.png",
-    "static/media/image.png": "/Portfolio/static/media/image.4415ff2da07b951100af.png",
-    "static/media/TextNinja.png": "/Portfolio/static/media/TextNinja.99845c5df5bfc4f8a9d3.png",
-    "static/media/FoodRhino.png": "/Portfolio/static/media/FoodRhino.15bf71b1f129635603f0.png",
-    "static/media/laravelAPISanctum.png": "/Portfolio/static/media/laravelAPISanctum.218122008d2f45ecb00d.png",
-    "static/media/laravelAPI.png": "/Portfolio/static/media/laravelAPI.39a8d700acb119e22249.png",
-    "static/media/portfoliaposter.png": "/Portfolio/static/media/portfoliaposter.43ca640203ae8655fbd8.png",
-    "static/media/sangeetfarm.jpg": "/Portfolio/static/media/sangeetfarm.1f5c72888eb76cd86c7a.jpg",
-    "static/media/cv.pdf": "/Portfolio/static/media/cv.d6fba196dee2ce6978f6.pdf",
-    "static/media/whatsapp.png": "/Portfolio/static/media/whatsapp.d026940870fb334920b7.png",
-    "static/media/github.png": "/Portfolio/static/media/github.594ed2478832de35ebac.png",
-    "static/media/experience.png": "/Portfolio/static/media/experience.acb5172738faad1da418.png",
-    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.6892b3ae328c7a1e055f.png",
-    "static/media/education.png": "/Portfolio/static/media/education.cfb44d44313bfc01dc1b.png",
-    "static/media/logo.png": "/Portfolio/static/media/logo.278e2fb96c3449741887.png",
-    "static/media/ui-design.png": "/Portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
-    "static/media/instagram.png": "/Portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
-    "index.html": "/Portfolio/index.html",
-    "main.45f245bc.css.map": "/Portfolio/static/css/main.45f245bc.css.map",
-    "main.cf09337b.js.map": "/Portfolio/static/js/main.cf09337b.js.map"
+    "main.css": "/Portfolia/static/css/main.45f245bc.css",
+    "main.js": "/Portfolia/static/js/main.188a0f4c.js",
+    "static/media/Evergreen.png": "/Portfolia/static/media/Evergreen.ea37a9f30fde5d2c325f.png",
+    "static/media/image.png": "/Portfolia/static/media/image.4415ff2da07b951100af.png",
+    "static/media/TextNinja.png": "/Portfolia/static/media/TextNinja.99845c5df5bfc4f8a9d3.png",
+    "static/media/FoodRhino.png": "/Portfolia/static/media/FoodRhino.15bf71b1f129635603f0.png",
+    "static/media/laravelAPISanctum.png": "/Portfolia/static/media/laravelAPISanctum.218122008d2f45ecb00d.png",
+    "static/media/laravelAPI.png": "/Portfolia/static/media/laravelAPI.39a8d700acb119e22249.png",
+    "static/media/portfoliaposter.png": "/Portfolia/static/media/portfoliaposter.43ca640203ae8655fbd8.png",
+    "static/media/sangeetfarm.jpg": "/Portfolia/static/media/sangeetfarm.1f5c72888eb76cd86c7a.jpg",
+    "static/media/cv.pdf": "/Portfolia/static/media/cv.d6fba196dee2ce6978f6.pdf",
+    "static/media/whatsapp.png": "/Portfolia/static/media/whatsapp.d026940870fb334920b7.png",
+    "static/media/github.png": "/Portfolia/static/media/github.594ed2478832de35ebac.png",
+    "static/media/experience.png": "/Portfolia/static/media/experience.acb5172738faad1da418.png",
+    "static/media/linkedin.png": "/Portfolia/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "static/media/education.png": "/Portfolia/static/media/education.cfb44d44313bfc01dc1b.png",
+    "static/media/logo.png": "/Portfolia/static/media/logo.278e2fb96c3449741887.png",
+    "static/media/ui-design.png": "/Portfolia/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/instagram.png": "/Portfolia/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/Portfolia/index.html",
+    "main.45f245bc.css.map": "/Portfolia/static/css/main.45f245bc.css.map",
+    "main.188a0f4c.js.map": "/Portfolia/static/js/main.188a0f4c.js.map"
   },
   "entrypoints": [
     "static/css/main.45f245bc.css",
-    "static/js/main.cf09337b.js"
+    "static/js/main.188a0f4c.js"
   ]
 }

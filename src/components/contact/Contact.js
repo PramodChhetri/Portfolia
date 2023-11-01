@@ -2,12 +2,13 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 import HamroDreamAuto from "../../assets/hamrodreamlogo.jpg";
+import SangeetFarm from "../../assets/sangeetfarm.jpg";
 import facebookIcon from "../../assets/facebook-icon.png";
 import instagramIcon from "../../assets/instagram.png";
 import twitterIcon from "../../assets/twitter.png";
 import githubIcon from "../../assets/github.png";
 import whatsappIcon from "../../assets/whatsapp.png";
-import linkedinIcon from "../../assets/linkedin.png"
+import linkedinIcon from "../../assets/linkedin.png";
 
 const Contact = () => {
   const form = useRef();
@@ -49,6 +50,7 @@ const Contact = () => {
           </p>
           <div className="clientImgs">
             <img src={HamroDreamAuto} alt="Clients" className="clientImg" />
+            <img src={SangeetFarm} alt="Clients" className="clientImg" />
           </div>
         </div>
         <div id="contact">

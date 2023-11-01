@@ -23,7 +23,7 @@ const Skill = () => {
             <img src={backend} alt="Backend Development" className="skillBarImg" />
             <div className="skillBarText">
                 <h2>Backend Development</h2>
-                <p>Proficient in building robust web applications using Laravel, APIs and ensuring seamless database functionality with MySQL.</p>
+                <p>Proficient in building robust web applications using Laravel, Rest API and ensuring seamless database functionality with MySQL.</p>
             </div>
         </div>
         <div className="skillBar">

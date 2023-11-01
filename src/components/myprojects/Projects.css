@@ -19,7 +19,7 @@
   
   .projectsContainer {
     display: flex;
-    flex-wrap: wrap; /* Ensure that projects wrap to the next line */
+    flex-wrap: wrap; 
     justify-content: space-between;
     gap: 1.5rem;
     margin-bottom: 2rem;

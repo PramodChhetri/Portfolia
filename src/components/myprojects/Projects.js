@@ -24,7 +24,7 @@ const projectsData = [
   {
     title: 'FoodRhino',
     image: FoodRhino,
-    githubLink: '#',
+    githubLink: 'https://github.com/PramodChhetri/FoodRhino',
     liveDemoLink: '#'
   },
   {

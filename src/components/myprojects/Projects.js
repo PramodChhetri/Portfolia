@@ -49,7 +49,7 @@ const projectsData = [
     liveDemoLink: 'https://pramodchhetri.github.io/React-NewsWave/'
   },
   {
-    title: 'Portfolio',
+    title: 'React',
     image: PortfolioPic,
     githubLink: 'https://github.com/PramodChhetri/Portfolia',
     liveDemoLink: 'https://pramodchhetri.com.np'
